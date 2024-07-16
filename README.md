@@ -75,7 +75,7 @@ The script performs the following steps:
 
 ## Custom Quarterly Assignment
 
-You can customize the quarterly assignment by modifying the following section in the script:
+You can customize the quarterly assignment by modifying the following section in the script. This is the case if you output the json from the billing start until the current month or previous completed month based on start_date and end_date:
 
 ```python
 # Custom quarterly assignment
