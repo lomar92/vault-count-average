@@ -103,7 +103,7 @@ The script will generate two plots:
 
 ![Monthly Client](img/monthly-client.png)
 
-2. **Quarterly Average Client Activity**: Shows the quarterly average count of entity clients, non-entity tokens, non-entity clients, and total clients.
+2. **Quarterly Average Client Activity**: Shows the quarterly average count of entity clients, non-entity tokens, non-entity clients, and total clients. THIS is NOT available in the Vault UI Client Count Dashboard.
 
 ![Quarterly Average](img/quarterly-average.png)
 
