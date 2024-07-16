@@ -1,5 +1,3 @@
-### README
-
 # Vault Client Activity Analysis
 
 This repository contains a Python script for analyzing and visualizing Vault client activity on a monthly and quarterly basis. The script reads JSON data from a file, calculates monthly and quarterly averages, and plots the results.
