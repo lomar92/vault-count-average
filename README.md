@@ -1,6 +1,6 @@
 # Vault Client Activity Analysis
 
-This repository contains a Python script for analyzing and visualizing Vault client activity on a monthly and quarterly basis. The script reads JSON data from a file, calculates monthly and quarterly averages, and plots the results.
+This repository contains a Python script for analyzing and visualizing Vault client activity (only active clients) on a monthly and quarterly basis. The script reads JSON data from a file, calculates monthly and quarterly averages, and plots the results.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ curl --header "X-Vault-Token: $VAULT_TOKEN" "$VAULT_ADDR/v1/sys/internal/counter
 
 ### Option 2: Using Start and End Dates based on Billing Period
 
-If you want to specify a custom start and end date, use the following `curl` command. Note that there is a limitation in the Vault API which states that activity data for the current month is only available after the month has concluded:
+If you want to specify a custom start and end date for example a calender quarter, use the following `curl` command. Note that there is a limitation in the Vault API which states that activity data for the current month is only available after the month has concluded:
 
 ```sh
 curl --header "X-Vault-Token: $VAULT_TOKEN" "$VAULT_ADDR/v1/sys/internal/counters/activity?start_time=2024-01-01T00:00:00Z&end_time=2024-12-31T23:59:59Z" > vault-data-count.json
