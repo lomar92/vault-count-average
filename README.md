@@ -48,7 +48,7 @@ curl --header "X-Vault-Token: $VAULT_TOKEN" "$VAULT_ADDR/v1/sys/internal/counter
 2. Run the script:
 
 ```sh
-python3 vault_client_activity.py
+python3 cq-count.py
 ```
 
 ## Script Overview
