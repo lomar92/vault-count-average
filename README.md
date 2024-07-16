@@ -108,7 +108,3 @@ The script will generate two plots:
 ![Quarterly Average](img/quarterly-average.png)
 
 Additionally, the script will print the quarterly averages to the console.
-
-## Contributing
-
-Feel free to submit issues and pull requests for bug fixes and new features.
