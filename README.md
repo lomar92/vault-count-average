@@ -13,7 +13,7 @@ This repository contains a Python script for analyzing and visualizing Vault cli
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/vault-client-activity.git
+git clone https://github.com/lomar92/vault-count-average.git
 cd vault-client-activity
 ```
 
