@@ -14,7 +14,7 @@ This repository contains a Python script for analyzing and visualizing Vault cli
 
 ```sh
 git clone https://github.com/lomar92/vault-count-average.git
-cd vault-client-activity
+cd vault-count-average
 ```
 
 2. Install the required Python packages:
